@@ -11,11 +11,13 @@ console.log('Animals are: ', animalArray);
 
 let foodsArray = ['pizza' , 'pasta', 'bbq', 'cake', 'brownies']
 
+console.log(foodsArray)
+
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
 
-console.log('My favorite foods are: ', food.Array);
+console.log('My favorite foods are: ', foods.Array);
 
 
 // 2. Array.length - tells you how many items are in the array
@@ -37,11 +39,11 @@ console.log('First animal is', animalArray[0])
 
 // 3.a. TODO: Log the second animal in the array 
 
-console.log('My second favorite food is', foodsArray[1])
+console.log('The second animal is', animalArray[1])
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
 
-console.log(foodsArray[foodsArray.length - 1]);
+console.log(animalArray[animalArray.length - 1]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
